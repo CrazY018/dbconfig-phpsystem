@@ -76,7 +76,7 @@ else
     </head>
     <body>
     <form method="POST" action="">
-        <input type="text" name="db_host" placeholder="Database Host" value="<?php if(isset($_POST['db_ip'])){echo $_POST['db_ip'];} ?>"/>
+        <input type="text" name="db_host" placeholder="Database Host" value="<?php if(isset($_POST['db_host'])){echo $_POST['db_host'];} ?>"/>
         <input type="text" name="db_name" placeholder="Database name" value="<?php if(isset($_POST['db_name'])){echo $_POST['db_name'];} ?>"/>
         <input type="text" name="db_user" placeholder="Database user" value="<?php if(isset($_POST['db_user'])){echo $_POST['db_user'];} ?>"/>
         <input type="password" name="db_password" placeholder="Database Password" value="<?php if(isset($_POST['db_password'])){echo $_POST['db_password'];} ?>"/>
